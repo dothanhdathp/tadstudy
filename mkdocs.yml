@@ -48,20 +48,20 @@ nav:
     - Overview: Physics/physics-overview.md
   - Hoá học:
     - Overview: Chemistry/chemistry-overview.md
-  - Lịch Sử:
-    - Overview: History/history-overview.md
+  - Lịch Sử Việt Nam:
+    - Overview: History_VN/vn-history-overview.md
+    - VN các thời kỳ: History_VN/vn-history-tong-quan-cac-thoi-ky.md
   - Triết học:
     - Overview: Philosophy/philosophy-overview.md
     - Stoicism:
       - Overview: Philosophy/stoicism-overview.md
   - Tiếng Anh:
-    - Kiến thức:
-      - Từ và Câu: Language/English/language-english-words-and-sentences.md
-    - Bài Tập:
-      - Reading:
-        - An Introduction to Film Sound: Language/English/language-english-an-introduction-to-film-sound.md
-        - How to find your way out of a food desert
-: Language/English/language-english-an-introduction-to-film-sound.md
+    - Knowledge:
+      - Từ và Câu: English/english-words-and-sentences.md
+    - Reading:
+      - An Introduction to Film Sound: English/english-an-introduction-to-film-sound.md
+      - How to find your way out of a food desert: English/english-how-to-find-your-way-out-of-a-food-desert.md
+
 extra_css:
   - stylesheets/theme.css
   - https://unpkg.com/katex@0/dist/katex.min.css
