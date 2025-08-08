@@ -81,17 +81,21 @@ h6 {
     color:var(--quaternary-theme-color);
 }
 
+mark.yellow {
+  color: #020226;
+  background-color: yellow!important;
+}
 mark.green {
-    color: #020226;
-    background-color: #81ff92!important;
+  color: #020226;
+  background-color: #81ff92!important;
 }
 mark.red {
-    color: #020226;
-    background-color: #ff8585!important;
+  color: #020226;
+  background-color: #ff8585!important;
 }
 mark.blue {
-    color: #020226;
-    background-color: rgb(109, 218, 255)!important;
+  color: #020226;
+  background-color: rgb(109, 218, 255)!important;
 }
 
 .center-table {
