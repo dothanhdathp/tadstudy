@@ -1,7 +1,7 @@
 site_name: Tad Study
 theme:
   name: material
-  logo: logo/cat_white.png
+  logo: assets/logo/cat_white.png
   text: Noto Serif Medium
   code: Roboto Mono Medium
   highlightjs: true
@@ -63,7 +63,7 @@ nav:
       - How to find your way out of a food desert: English/english-how-to-find-your-way-out-of-a-food-desert.md
 
 extra_css:
-  - stylesheets/theme.css
+  - assets/stylesheets/theme.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 
 markdown_extensions:
@@ -86,7 +86,8 @@ markdown_extensions:
       clickable_checkbox: true
 
 extra_javascript:
-  - scripts/katex.js
+  - assets/scripts/katex.js
+  - assets/scripts/keyevent.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
