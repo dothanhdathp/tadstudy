@@ -32,7 +32,8 @@ theme:
 plugins:
   - search
   - plantuml:
-      puml_url: https://www.plantuml.com/plantuml/
+      # puml_url: https://www.plantuml.com/plantuml/
+      puml_url: http://192.168.102.72:7777/plantuml/
 
 nav:
   - Study: index.md
