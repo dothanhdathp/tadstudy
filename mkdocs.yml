@@ -1,0 +1,105 @@
+site_name: Tad Study
+theme:
+  name: material
+  logo: assets/logo/cat_white.png
+  text: Noto Serif Medium
+  code: Roboto Mono Medium
+  highlightjs: true
+  hljs_style: github
+  hljs_style_dark: github-dark
+  palette:
+  - scheme: default
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-4
+      name: Switch to dark mode
+  - scheme: slate
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-7
+      name: Switch to light mode
+  features:
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.instant
+    - navigation.footer
+    - navigation.tracking
+
+plugins:
+  - search
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+
+nav:
+  - Study: index.md
+  - Toán học:
+    - Chung:
+      - Tổng quan: Math/math-overview.md
+      - Tập hợp số: Math/math-phan-so.md
+    - Số học:
+      - Số học: Math/math-numberic-overview.md
+    - Hình học:
+      - Hình học cơ bản: Math/math-geometry-overview.md
+  - Vật Lý:
+    - Overview: Physics/physics-overview.md
+  - Hoá học:
+    - Overview: Chemistry/chemistry-overview.md
+  - Lịch Sử VN:
+    - Overview: History_VN/vn-history-overview.md
+    - VN các thời kỳ: History_VN/vn-history-tong-quan-cac-thoi-ky.md
+    - Thoi Tien Su: History_VN/vn-history-thoi-ky-tien-su.md
+    - Thoi Co Dai: History_VN/vn-history-thuong-co-thoi-dai.md
+    - Thoi Truyen Thuyet Con Rong Chau Tien: History_VN/vn-history-truyen-thuyet-con-rong-chau-tien.md
+  - Triết học:
+    - Overview: Philosophy/philosophy-overview.md
+    - Stoicism:
+      - Overview: Philosophy/stoicism-overview.md
+    - Triết học cá nhân:
+      - Overview: Philosophy/philosophy-personalized-philosophy.md
+      - Pokemon: Philosophy/philosophy-pokemon.md
+  - Tiếng Anh:
+    - Knowledge:
+      - Từ và Câu: English/english-words-and-sentences.md
+    - Reading:
+      - An Introduction to Film Sound: English/english-an-introduction-to-film-sound.md
+      - How to find your way out of a food desert: English/english-how-to-find-your-way-out-of-a-food-desert.md
+
+extra_css:
+  - assets/stylesheets/theme.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra_javascript:
+  - assets/scripts/katex.js
+  - assets/scripts/keyevent.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dothanhdathp
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/tad.zeila?locale=vi_VN
