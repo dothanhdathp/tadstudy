@@ -35,7 +35,9 @@ plugins:
       puml_url: https://www.plantuml.com/plantuml/
 
 nav:
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
   - Study: index.md
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
   - Toán học:
     - Chung:
       - Tổng quan: Math/math-overview.md
@@ -44,16 +46,25 @@ nav:
       - Số học: Math/math-numberic-overview.md
     - Hình học:
       - Hình học cơ bản: Math/math-geometry-overview.md
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
   - Vật Lý:
     - Overview: Physics/physics-overview.md
+    - Cơ Học:
+      - Lực đẩy Archimedes: Physics/physics-mechanics-luc-day-archimedes.md
+      - 3 Newton's Laws: Physics/physics-mechanics-3-newton-laws-of-motion.md
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
   - Hoá học:
     - Overview: Chemistry/chemistry-overview.md
-  - Lịch Sử VN:
-    - Overview: History_VN/vn-history-overview.md
-    - VN các thời kỳ: History_VN/vn-history-tong-quan-cac-thoi-ky.md
-    - Thoi Tien Su: History_VN/vn-history-thoi-ky-tien-su.md
-    - Thoi Co Dai: History_VN/vn-history-thuong-co-thoi-dai.md
-    - Thoi Truyen Thuyet Con Rong Chau Tien: History_VN/vn-history-truyen-thuyet-con-rong-chau-tien.md
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+  - Lịch Sử:
+    - Lịch Sử VN:
+      - Overview: History_VN/vn-history-overview.md
+      - VN các thời kỳ: History_VN/vn-history-tong-quan-cac-thoi-ky.md
+      - Thời Tiền Sử: History_VN/vn-history-thoi-ky-tien-su.md
+      - Thời Cổ Đại: History_VN/vn-history-thuong-co-thoi-dai.md
+      - Truyện Dân Gian:
+        - Truyền Thuyết Con Rồng Cháu Tiên: History_VN/vn-history-truyen-thuyet-con-rong-chau-tien.md
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
   - Triết học:
     - Overview: Philosophy/philosophy-overview.md
     - Stoicism:
@@ -61,6 +72,7 @@ nav:
     - Triết học cá nhân:
       - Overview: Philosophy/philosophy-personalized-philosophy.md
       - Pokemon: Philosophy/philosophy-pokemon.md
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
   - Tiếng Anh:
     - Knowledge:
       - Từ và Câu: English/english-words-and-sentences.md
