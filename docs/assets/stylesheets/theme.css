@@ -53,9 +53,11 @@
 .md-main__inner.md-grid.full-width {
   max-width: initial;
 }
-
 .md-typeset {
   font-size: 0.6rem
+}
+.md-typeset a {
+  color: #0000ff;
 }
 .md-tabs {
   background-color: #434a74;
@@ -124,11 +126,11 @@ mark.blue {
 
 th {
   background-color: #aaa1ff5b;
-  font-size: larger;
+  font-size: unset;
 }
 
 td {
-  font-size: large;
+  font-size: small;
 }
 
 /* code */
