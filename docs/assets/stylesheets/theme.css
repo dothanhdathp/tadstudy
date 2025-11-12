@@ -41,10 +41,12 @@
     --tertiary-theme-color: #ffae00;
 }
 
+[data-md-color-scheme=default] {
+    --md-default-bg-color: #e4e4e4;
+}
 [data-md-color-primary=indigo] {
     --md-primary-fg-color: #383d5b;
 }
-
 /* Full width = max-width: initial; or try 100% or 1280px or ...  */
 /* .md-grid {
   max-width: initial;
