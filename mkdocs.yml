@@ -43,13 +43,15 @@ nav:
     - Toán II: Math2/math-2-mathematical-constant.md
   ########################################################################################################################
   - Toán Học Cơ Bản:
-    - Chung:
-      - Tổng quan: Math/math-overview.md
+    - ❖ Chung:
+      - Toán Cơ Bản: Math/math.md
       - Tập hợp số: Math/math-phan-so.md
-    - Số Học:
+      - Số Nguyên Tố: Math/math-prime-number.md
+      - Ước & Bội: Math/math-divisor-and-multiple.md
+    - ❖ Số Học:
       - Số Học: Math/math-numberic-overview.md
       - Hẳng Đẳng Thức: Math/math-identity-overview.md
-    - Hình Học:
+    - ❖ Hình Học:
       - Hình Học Cơ Bản: Math/math-geometry-overview.md
   - Toán Học Cao Cấp:
     - Tổng Quan: Math2/math-2-overview.md
@@ -57,7 +59,7 @@ nav:
   ########################################################################################################################
   - Vật Lý:
     - Overview: Physics/physics-overview.md
-    - Cơ Học:
+    - ❖ Cơ Học:
       - Lực đẩy Archimedes: Physics/physics-mechanics-luc-day-archimedes.md
       - 3 Newton's Laws: Physics/physics-mechanics-3-newton-laws-of-motion.md
     - Speed of light: Physics/physics-speed-of-light.md
@@ -67,26 +69,26 @@ nav:
     - Overview: Chemistry/chemistry-overview.md
   ########################################################################################################################
   - Lịch Sử:
-    - Lịch Sử VN:
+    - ❖ Lịch Sử VN:
       - Overview: History_VN/vn-history-overview.md
       - VN các thời kỳ: History_VN/vn-history-tong-quan-cac-thoi-ky.md
       - Thời Tiền Sử: History_VN/vn-history-thoi-ky-tien-su.md
       - Thời Cổ Đại: History_VN/vn-history-thuong-co-thoi-dai.md
-      - Truyện Dân Gian:
+      - ❖ Truyện Dân Gian:
         - Truyền Thuyết Con Rồng Cháu Tiên: History_VN/vn-history-truyen-thuyet-con-rong-chau-tien.md
   ########################################################################################################################
   - Triết Học:
     - Overview: Philosophy/philosophy-overview.md
-    - Stoicism:
+    - ❖ Stoicism:
       - Overview: Philosophy/stoicism-overview.md
-    - Triết Học cá nhân:
+    - ❖ Triết Học cá nhân:
       - Overview: Philosophy/philosophy-personalized-philosophy.md
       - Pokemon: Philosophy/philosophy-pokemon.md
   ########################################################################################################################
   - Tiếng Anh:
-    - Knowledge:
+    - ❖ Grammaly:
       - Từ và Câu: English/english-words-and-sentences.md
-    - Reading:
+    - ❖ Reading:
       - An Introduction to Film Sound: English/english-an-introduction-to-film-sound.md
       - How to find your way out of a food desert: English/english-how-to-find-your-way-out-of-a-food-desert.md
 

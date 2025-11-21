@@ -1,4 +1,4 @@
-# \[Math2\] Công thức Euler
+# \[Math\] Công thức Euler
 
 > [__*Nguồn*__](https://vi.wikipedia.org/wiki/C%C3%B4ng_th%E1%BB%A9c_Euler)
 
