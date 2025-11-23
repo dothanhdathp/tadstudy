@@ -56,6 +56,7 @@ nav:
   - Toán Học Cao Cấp:
     - Tổng Quan: Math2/math-2-overview.md
     - Công Thức Euler: Math2/math-2-euler.md
+    - Basel problem: Math2/math-2-basel-problem.md
   ########################################################################################################################
   - Vật Lý:
     - Overview: Physics/physics-overview.md
@@ -91,6 +92,9 @@ nav:
     - ❖ Reading:
       - An Introduction to Film Sound: English/english-an-introduction-to-film-sound.md
       - How to find your way out of a food desert: English/english-how-to-find-your-way-out-of-a-food-desert.md
+  - Công Cụ:
+    - GeoGebra: Tools/geogebra.md
+    - GNU Octave: Tools/gnu-octave.md
 
 extra_css:
   - assets/stylesheets/theme.css
