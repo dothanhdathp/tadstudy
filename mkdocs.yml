@@ -36,13 +36,12 @@ plugins:
 
 nav:
   ########################################################################################################################
-  - Study: index.md
+  - Study:
+    - Hằng Số: index.md
+    - HS Vật Lý: Physics/physics-constant.md
+    - HS Toán II: Math2/math-2-mathematical-constant.md
   ########################################################################################################################
-  - Hẳng Số:
-    - Vật Lý: Physics/physics-constant.md
-    - Toán II: Math2/math-2-mathematical-constant.md
-  ########################################################################################################################
-  - Toán Học Cơ Bản:
+  - Toán Học I:
     - ❖ Chung:
       - Toán Cơ Bản: Math/math.md
       - Tập hợp số: Math/math-phan-so.md
@@ -53,7 +52,12 @@ nav:
       - Hẳng Đẳng Thức: Math/math-identity-overview.md
     - ❖ Hình Học:
       - Hình Học Cơ Bản: Math/math-geometry-overview.md
-  - Toán Học Cao Cấp:
+      - Lượng Giác:
+        - Định luật Cosin: Math/math-law-of-cosines.md
+      - Tam Giác:
+        - Heron's Formula: Math/math-heron-formula.md
+      - Cevian: Math/math-cevian.md
+  - Toán Học II:
     - Tổng Quan: Math2/math-2-overview.md
     - Công Thức Euler: Math2/math-2-euler.md
     - Basel problem: Math2/math-2-basel-problem.md
@@ -61,8 +65,14 @@ nav:
   - Vật Lý:
     - Overview: Physics/physics-overview.md
     - ❖ Cơ Học:
+      - Thứ Nguyên: Physics/physics-dimensional.md
+      - Vận Tốc & Gia Tôc: Physics/physics-speed-acceleration.md
+      - Vận Tốc Ánh Sáng: Physics/physics-mechanics-3-newton-laws-of-motion.md
+      ###
       - Lực đẩy Archimedes: Physics/physics-mechanics-luc-day-archimedes.md
       - 3 Newton's Laws: Physics/physics-mechanics-3-newton-laws-of-motion.md
+    - ❖ Điện:
+      - Lực đẩy Archimedes: Physics/physics-mechanics-luc-day-archimedes.md
     - Speed of light: Physics/physics-speed-of-light.md
     - Fourier: Physics/physics-fourier.md
   ########################################################################################################################

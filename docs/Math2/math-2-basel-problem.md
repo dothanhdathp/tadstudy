@@ -21,7 +21,7 @@ $$
 
 - Giả sử bạn quan sát ở vị trí $0$, ngọn hải đăng ở vị trí $1$ thì ánh sáng người đó nhận đến mắt là $1$
 - Nếu ngọn hải đăng ở vị trí $2$, thì ánh sáng bị giảm tỉ lệ nghịch với bình phương khoảng cách, độ sáng lúc này bạn quan sát được là $\cfrac{1}{2^2} = \cfrac{1}{4}$
-- Lần lượt các vị trí tiếp theo là $\cfrac{1}{2^2}; \cfrac{1}{3^2}; \cfrac{1}{4^2}; ... = \cfrac{1}{4}; \cfrac{1}{9}; \cfrac{1}{16}; ...$
+- Lần lượt các vị trí tiếp theo là $\cfrac{1}{2^2}; \cfrac{1}{3^2}; \cfrac{1}{4^2}; \dots = \cfrac{1}{4}; \cfrac{1}{9}; \cfrac{1}{16}; \dots$
 
 ## Định Lý Tam Giác
 
@@ -113,13 +113,13 @@ $$
 Loại bỏ phần lặp lại ở một nửa bên âm, ta có:
 
 $$
-\cfrac{1}{1^2} + \cfrac{1}{3^2} + \cfrac{1}{5^2} + ... = \cfrac{\pi^2}{8}
+\cfrac{1}{1^2} + \cfrac{1}{3^2} + \cfrac{1}{5^2} + \dots = \cfrac{\pi^2}{8}
 $$
 
 _Vẫn thiếu một nửa số dương nhỉ?_. Ta phải đi tìm chuỗi nguyên dương nhưng trước mắt tạm lưu nó lại:
 
 $$
-A = \cfrac{1}{1^2} + \cfrac{1}{3^2} + \cfrac{1}{5^2} + ... = \cfrac{\pi^2}{8}
+A = \cfrac{1}{1^2} + \cfrac{1}{3^2} + \cfrac{1}{5^2} + \dots = \cfrac{\pi^2}{8}
 $$
 
 Được rồi hãy xem xét lại công thức __Basel__
@@ -138,7 +138,7 @@ $$
 Tiếp đến __nhân 2__ khoảng cách lên. Tính theo công thức độ sáng khoảng cách lên ta có công thức chuỗi chẵn, đèn màu đỏ:
 
 $$
-C = \cfrac{1}{2^2} + \cfrac{1}{4^2} + \cfrac{1}{6^2} + ...
+C = \cfrac{1}{2^2} + \cfrac{1}{4^2} + \cfrac{1}{6^2} + \dots
 $$
 
 Vì khoảng cách là nhân hai nên theo công thức về độ sáng, độ sáng giảm $\cfrac{1}{4}$, hay:
