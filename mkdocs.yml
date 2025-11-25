@@ -102,9 +102,20 @@ nav:
     - ❖ Reading:
       - An Introduction to Film Sound: English/english-an-introduction-to-film-sound.md
       - How to find your way out of a food desert: English/english-how-to-find-your-way-out-of-a-food-desert.md
-  - Công Cụ:
+  - Tools:
     - GeoGebra: Tools/geogebra.md
     - GNU Octave: Tools/gnu-octave.md
+  - Misc:
+    - Latex: Misc/LaTex/latex.md
+    - ❖ Katex:
+      - Katex: Misc/KaTex/katex.md
+      - Ký Tự Toán: Misc/KaTex/katex-math-letter.md
+      - So Sánh: Misc/KaTex/katex-math-compare.md
+      - Chữ Hy Lạp: Misc/KaTex/katex-greek-letter.md
+      - Dấu Ngoặc:  Misc/KaTex/katex-delimiters.md
+      - Kích Thước:  Misc/KaTex/katex-text-size.md
+      - Biểu Tượng Và Dấu: Misc/KaTex/katex-math-symbols-and-punctuation.md
+      - Macro: Misc/KaTex/katex-macro.md
 
 extra_css:
   - assets/stylesheets/theme.css
