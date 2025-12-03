@@ -36,12 +36,15 @@ plugins:
 
 nav:
   ########################################################################################################################
-  - Study:
-    - Hằng Số: index.md
+  - Học:
+    - Về Việc Học: index.md
+    - ❖ Ngôn Ngữ:
+      - Ngôn Ngữ Học: language.md
     - HS Vật Lý: Physics/physics-constant.md
     - HS Toán II: Math2/math-2-mathematical-constant.md
+    - Hằng Số: index.md
   ########################################################################################################################
-  - Toán Học I:
+  - Toán Học:
     - ❖ Chung:
       - Toán Cơ Bản: Math/math.md
       - Tập hợp số: Math/math-phan-so.md
@@ -57,7 +60,7 @@ nav:
       - Tam Giác:
         - Heron's Formula: Math/math-heron-formula.md
       - Cevian: Math/math-cevian.md
-  - Toán Học II:
+  - Toán Nâng Cao:
     - Tổng Quan: Math2/math-2-overview.md
     - Công Thức Euler: Math2/math-2-euler.md
     - Basel problem: Math2/math-2-basel-problem.md
@@ -68,7 +71,6 @@ nav:
       - Thứ Nguyên: Physics/physics-dimensional.md
       - Vận Tốc & Gia Tôc: Physics/physics-speed-acceleration.md
       - Vận Tốc Ánh Sáng: Physics/physics-mechanics-3-newton-laws-of-motion.md
-      ###
       - Lực đẩy Archimedes: Physics/physics-mechanics-luc-day-archimedes.md
       - 3 Newton's Laws: Physics/physics-mechanics-3-newton-laws-of-motion.md
     - ❖ Điện:
@@ -80,7 +82,7 @@ nav:
     - Overview: Chemistry/chemistry-overview.md
   ########################################################################################################################
   - Lịch Sử:
-    - ❖ Lịch Sử VN:
+    - ❖ Sử Việt Nam:
       - Overview: History_VN/vn-history-overview.md
       - VN các thời kỳ: History_VN/vn-history-tong-quan-cac-thoi-ky.md
       - Thời Tiền Sử: History_VN/vn-history-thoi-ky-tien-su.md
@@ -97,8 +99,29 @@ nav:
       - Pokemon: Philosophy/philosophy-pokemon.md
   ########################################################################################################################
   - Tiếng Anh:
+    - Tiếng Anh: English/english.md
     - ❖ Grammaly:
-      - Từ và Câu: English/english-words-and-sentences.md
+      - ❖ Từ:
+        - Danh từ: English/english-words-nouns.md
+        - Đại từ: English/english-words-pronouns.md
+        - Động từ: English/english-words-verbs.md
+        - Tính từ: English/english-words-adjectives.md
+        - Trạng từ: English/english-words-adverbs.md
+        - Giới từ: English/english-words-prepositions.md
+        - Liên từ: English/english-words-conjunctions.md
+        - Thán từ: English/english-words-interjections.md
+        - Từ hạn định: English/english-words-determiners.md
+      - ❖ Câu:
+        - Câu trần thuật: English/english-declarative-sentence.md
+        - Câu nghi vấn: English/english-interrogative-sentence.md
+        - Câu cảm thán: English/english-exclamatory-sentence.md
+      # - ❖ Thời:
+        # - Thời:
+        # - Thời Hiện Tại Đơn
+        # - Thời Hiện Tại Tiếp Diễn
+        # - Thời Quá Khứ Đơn
+        # - Thời Quá Khứ Tiếp Diễn
+        # - Thời Hiện Tại Hoàn Thành
     - ❖ Reading:
       - An Introduction to Film Sound: English/english-an-introduction-to-film-sound.md
       - How to find your way out of a food desert: English/english-how-to-find-your-way-out-of-a-food-desert.md

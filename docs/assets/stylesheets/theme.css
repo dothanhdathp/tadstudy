@@ -1,20 +1,20 @@
 @font-face {
-  font-family: "NotoSerifMedium";
-  src: url("../fonts/NotoSerif-Medium.ttf") format("truetype");
+  font-family: "PrimaryFont";
+  src: url("../fonts/NotoSerif-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "RobotoMonoMedium";
-  src: url("../fonts/RobotoMono-Medium.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "JetBrains Mono";
+  font-family: "CodeFont";
   src: url("../fonts/JetBrainsMono-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "CodeFontBold";
+  src: url("../fonts/JetBrainsMono-Bold.ttf") format("truetype");
+}
+
 :root {
-    --primary-family: "NotoSerifMedium";
+    --primary-family: "PrimaryFont";
     --primary-header-0-size: 28px;
     --primary-header-1-size: 24px;
     --primary-header-2-size: 22px;
@@ -30,14 +30,15 @@
     --tertiary-theme-color: #ffae0090; /* Light theme text */
     --quaternary-theme-color: #8b1a8f90; /* Light theme text */
     --soft-gray-theme-color: #E2E2E2; /* Accent color */
-    --code-font-family: "JetBrains Mono";
+    --code-background-color: #fdddb490;
+    --code-font-family: "CodeFontBold";
     --md-bg-light-color: #d3d3e9;
     --md-bg-dark-color: #020226;
     /* --code-font-family: 'Noto Sans Mono Light'; */
-    --md-text-font: "NotoSerifMedium";
-    --md-code-font: "JetBrains Mono";
+    --md-text-font: "PrimaryFont";
+    --md-code-font: "CodeFont";
     /* Fix font light be too bright by opacity */
-    --tertiary-theme-color: #ffae00F0;
+    --tertiary-theme-color: #a16e00ab;
 }
 
 [data-md-color-primary=indigo] {
@@ -53,7 +54,6 @@
   --custom-color-theme-h4--theme: #ff5e00;
   --custom-color-theme-h5--theme: #ff2200;
   --custom-color-theme-h6--theme: #004b55;
-  --md-code-bg-color: #ffd0698e;
   --custom-linker-color: #0e5ec3;
 }
 /* Dark theme */
@@ -65,7 +65,6 @@
   --custom-color-theme-h4--theme: #dba022;
   --custom-color-theme-h5--theme: #dba022;
   --custom-color-theme-h6--theme: #f990ff;
-  --md-code-bg-color: #ffd0698e;
   --custom-linker-color: #689ad6;
 }
 
@@ -76,11 +75,6 @@
 
 .md-typeset {
   font-size: 0.6rem
-}
-
-.md-typeset pre>code {
-  font-family: var(--code-font-family);
-  font-size: small;
 }
 
 .md-main__inner.md-grid.full-width {
@@ -140,24 +134,14 @@ mark.blue {
     background-color: rgb(109, 218, 255)!important;
 }
 
-.center-table {
-  display: flex;
-  justify-content: center;
-  margin: 1em 0;
-}
-
-.center-table table {
-  margin: 0 auto;
-}
-
 /* Change table size */
-
-th {
-  background-color: #5188ff5b;
+.md-typeset table:not([class]) th {
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: #00a9605b;
   font-size: unset;
 }
-
-td {
+.md-typeset table:not([class]) td {
+  padding: 0.2em 1em 0.2em 1em;
   font-size: small;
 }
 
@@ -177,4 +161,11 @@ div.grid-container-4-3 {
 }
 .md-typeset__table table:not([class]) {
     display: table;
+}
+
+/* code */
+:not(pre):not(.hljs) > code {
+    color: var(--code-color);
+    background-color: var(--code-background-color);
+    font-family: var(--code-font-family);
 }

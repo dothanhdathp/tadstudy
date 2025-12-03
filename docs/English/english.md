@@ -1,6 +1,18 @@
-# Từ và Câu
+# English
 
-## Danh sách loại từ
+## Tiếng Anh là
+
+Là Tiếng Anh
+
+## Các Khái Niệm
+## Lộ Trình Học
+
+- __Phát Âm__, 
+- __Từ__ chỉ 
+
+## Lộ Trình Học
+
+## Các Loại Từ
 
 Tiếng anh trong sách có 8 loại từ (chắc thế)
 
@@ -16,19 +28,8 @@ Tiếng anh trong sách có 8 loại từ (chắc thế)
 | __Interjections (Thán từ)__   | Thể hiện cảm xúc mạnh mẽ hoặc cảm xúc bộc phát đột ngột.                                   | wow, ouch, hey        |
 | __Determiners (Từ hạn định)__ | Giới thiệu danh từ và cung cấp thông tin về số lượng, tính xác định hoặc sở hữu của chúng. | _the, some, my_       |
 
-### Nouns (Danh từ)
-> Đặt tên cho người, địa điểm, đồ vật hoặc ý tưởng.
-
-1. __Danh từ chung__ _(Common Nouns)_: dog, city, book, river, mountain
-1. __Danh từ riêng__ _(Proper Nouns)_: Einstein, Paris, Amazon, Mount Everest
-1. __Danh từ cụ thể__ _(Concrete Nouns)_: apple, chair, phone, tree, ocean
-1. __Danh từ trừu tượng__ _(Abstract Nouns)_: love, happiness, knowledge, freedom
-1. __Danh từ đếm được__ _(Countable Nouns)_: car, house, pencil, chair
-1. __Danh từ không đếm được__ _(Uncountable Nouns)_: water, sand, air, music
-1. __Danh từ tập hợp__ _(Collective Nouns)_: team, family, flock, herd
-1. __Danh từ ghép__ _(Compound Nouns)_: toothpaste, basketball, mother-in-law
-
 ### Pronouns (Đại từ)
+
 > Thay thế danh từ để tránh lặp lại.
 
 1. __Đại từ nhân xưng__ _(Personal Pronouns)_: I, you, he, she, it, we, they
@@ -40,6 +41,7 @@ Tiếng anh trong sách có 8 loại từ (chắc thế)
 1. __Đại từ nghi vấn__ _(Interrogative Pronouns)_: who, what, which, whom, whose
 
 ### Verbs (Động từ)
+
 > Mô tả hành động, trạng thái hoặc sự kiện.
 
 1. __Động từ hành động__ _(Action Verbs)_: run, jump, swim, write, dance, sing, cook
@@ -50,6 +52,7 @@ Tiếng anh trong sách có 8 loại từ (chắc thế)
 1. __Động từ khiếm khuyết (động từ modal)__ _(Modal Verbs)_: can, could, may, might, must, shall, should, will, would
 
 ### Adjectives (Tính từ)
+
 > Mô tả hoặc sửa đổi danh từ.
 
 1. __Tính từ miêu tả__ _(Descriptive Adjectives)__: beautiful, tall, shiny, delicious, cold, bright
@@ -61,6 +64,7 @@ Tiếng anh trong sách có 8 loại từ (chắc thế)
 1. __Tính từ nghi vấn__ _(Interrogative Adjectives)__: which, what, whose
 
 ### Adverbs (Trạng từ)
+
 > Mô tả hoặc sửa đổi động từ, tính từ hoặc trạng từ khác.
 
 1. __Trạng từ chỉ cách thức__ _(Adverbs of Manner)_: quickly, slowly, beautifully, loudly, silently
@@ -70,6 +74,7 @@ Tiếng anh trong sách có 8 loại từ (chắc thế)
 1. __Trạng từ chỉ mức độ__ _(Adverbs of Degree)_: very, too, quite, almost, extremely
 
 ### Prepositions (Giới từ)
+
 > Hiển thị mối quan hệ giữa danh từ (hoặc đại từ) và các từ khác trong câu.
 
 1. __Giới từ chỉ địa điểm__ _(Prepositions of Place)_: in, on, at, under, over, between, behind, beside
@@ -80,6 +85,7 @@ Tiếng anh trong sách có 8 loại từ (chắc thế)
 1. __Giới từ chỉ sự sở hữu__ _(Prepositions of Possession)_: of, about, for
 
 ### Conjunctions (Liên từ)
+
 > Kết nối các từ, cụm từ hoặc mệnh đề.
 
 1. __Liên từ kết hợp__ _(Coordinating Conjunctions)_: for, and, nor, but, or, yet, so
@@ -87,6 +93,7 @@ Tiếng anh trong sách có 8 loại từ (chắc thế)
 1. __Liên từ tương quan__ _(Correlative Conjunctions)_: either...or, neither...nor, both...and, not only...but also
 
 ### Interjections (Thán từ)
+
 > Thể hiện cảm xúc mạnh mẽ hoặc cảm xúc bộc phát đột ngột.
 
 1. __Wow!__ – bày tỏ sự ngạc nhiên hoặc ngưỡng mộ.
@@ -99,6 +106,7 @@ Tiếng anh trong sách có 8 loại từ (chắc thế)
 
 
 ### Determiners (Từ hạn định)
+
 > Giới thiệu danh từ và cung cấp thông tin về số lượng, tính xác định hoặc sở hữu của chúng
 
 1. __Mạo từ__ _(Articles)__: a, an, the

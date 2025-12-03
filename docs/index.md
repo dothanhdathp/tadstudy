@@ -1,3 +1,7 @@
-# Study
+# Học
 
-Trong chương này là tất cả những gì mình học tập thì cho vào trong đây, tránh cho việc tìm kiếm ở trang web chính bị lẫn lộn.
+Tập tài liệu này tổng hợp lại các kiến thức học tập nền tảng, là các ngành học cơ bản như Toán, Lý, Hoá, Ngôn Ngữ, ...
+
+## Ngôn Ngữ Học
+
+[language.md](language.md)
