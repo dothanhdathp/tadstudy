@@ -115,6 +115,8 @@ nav:
         - Câu trần thuật: English/english-declarative-sentence.md
         - Câu nghi vấn: English/english-interrogative-sentence.md
         - Câu cảm thán: English/english-exclamatory-sentence.md
+    - ❖ Chưa xếp loại:
+      - Từ Chuyển Tiếp: English/english-transitional-phrases.md
       # - ❖ Thời:
         # - Thời:
         # - Thời Hiện Tại Đơn
@@ -122,9 +124,11 @@ nav:
         # - Thời Quá Khứ Đơn
         # - Thời Quá Khứ Tiếp Diễn
         # - Thời Hiện Tại Hoàn Thành
-    - ❖ Reading:
-      - An Introduction to Film Sound: English/english-an-introduction-to-film-sound.md
-      - How to find your way out of a food desert: English/english-how-to-find-your-way-out-of-a-food-desert.md
+      # - ❖ Câu:
+    - ❖ Practice:
+      - ❖ Reading:
+        - An Introduction to Film Sound: English/english-an-introduction-to-film-sound.md
+        - How to find your way out of a food desert: English/english-how-to-find-your-way-out-of-a-food-desert.md
   - Tools:
     - GeoGebra: Tools/geogebra.md
     - GNU Octave: Tools/gnu-octave.md
