@@ -20,29 +20,21 @@
 
 ```puml
 @startwbs
-* Hình học cơ bản
+
+* Đa Giác
+
 ** Tam Giác
 *** Tam Giác Cân
 **** Tam Giác Đều
+--- Tam Giác Vuông
+---- Tam Giác Vuông Cân
+
 ** Tứ Giác
 *** Hình Chữ Nhật
-**** Hình Vuông
-** Ngũ Giác
-*** Ngũ Giác Đều
-** Lục Giác
-*** Lục Giác Đều
-** Thất Giác
-*** Thất Giác Đều
-** Bát Giác
-*** Bát Giác Đều
-** Cửu Giác
-*** Cửu Giác Đều
-** Thập Giác
-*** Thập Giác Đều
-** {Đa Giác}
-*** {Đa Giác} Đều
-** Hình Elip
-*** Hình Tròn
+*** Hình Vuông
+
+** Tròn
+
 @endwbs
 ```
 
