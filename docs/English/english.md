@@ -7,6 +7,44 @@ Là Tiếng Anh
 ## Các Khái Niệm
 ## Lộ Trình Học
 
+```puml
+@startmindmap
+skinparam backgroundcolor transparent
+
+* Tiếng Anh
+** Từ
+***_ Phát Âm
+***_ Loại Từ
+****_ Danh từ
+****_ Đại từ
+****_ Động từ
+****_ Tính từ
+****_ Trạng từ
+*****_ Trạng từ chỉ tần suất
+****_ Giới từ
+****_ Liên từ
+****_ Thán từ
+****_ Từ hạn định
+*** Loại khác
+****_ Từ nối //(linking words)//
+** Thì
+***_ Hiện Tại
+****_ Hiện Tại Đơn
+****_ Hiện Tại Tiếp Diễn
+****_ Hiện Tại Hoàn Thành
+***_ Quá Khứ
+****_ Quá Khứ Đơn
+****_ Quá Khứ Tiếp Diễn
+****_ Quá Khứ Hoàn Thành
+***_ Tương Lai
+****_ Tương Lai Đơn
+****_ Tương Lai Tiếp Diễn
+****_ Tương Lai Hoàn Thành
+** Câu
+***_ Trần Thuật
+***_ Cảm Thán
+***_ Nghi Vấn
+```
 - __Phát Âm__, 
 - __Từ__ chỉ 
 
