@@ -12,3 +12,6 @@
 | __Tỉ lệ vàng (Phi)__               | $\phi$ hoặc $\tau$ | $\phi=\cfrac{1+\sqrt{5}}{2}$ |           $\approx 1.6180339887...$           |
 | __Hằng số Gamma Euler-Mascheroni__ |      $\gamma$      |            $TEMP$            |           $\approx 0.5772156649...$           |
 
+```cpp title="main.cpp  "
+// Code example
+```
