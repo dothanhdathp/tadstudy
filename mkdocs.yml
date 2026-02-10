@@ -35,6 +35,7 @@ plugins:
       # puml_url: https://www.plantuml.com/plantuml/
       puml_url: http://localhost:8080/
   - graph
+  - macros
 
 nav:
   ########################################################################################################################
@@ -138,8 +139,7 @@ nav:
     - Latex: Misc/LaTex/latex.md
     - Katex:
       - Katex: Misc/KaTex/katex.md
-      - Ký Tự Toán: Misc/KaTex/katex-math-letter.md
-      - So Sánh: Misc/KaTex/katex-math-compare.md
+      - Ký Tự Toán: Misc/KaTex/katex-characters-and-symbols.md
       - Chữ Hy Lạp: Misc/KaTex/katex-greek-letter.md
       - Dấu Ngoặc:  Misc/KaTex/katex-delimiters.md
       - Kích Thước:  Misc/KaTex/katex-text-size.md
