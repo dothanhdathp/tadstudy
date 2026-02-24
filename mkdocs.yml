@@ -1,0 +1,188 @@
+site_name: Tad Study
+theme:
+  name: material
+  logo: assets/logo/cat_white.png
+  text: Noto Serif Medium
+  code: Roboto Mono Medium
+  highlightjs: true
+  hljs_style: github
+  hljs_style_dark: github-dark
+  palette:
+  - scheme: default
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-4
+      name: Switch to dark mode
+  - scheme: slate
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-7
+      name: Switch to light mode
+  features:
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.instant
+    - navigation.footer
+    - navigation.tracking
+
+plugins:
+  - search
+  - plantuml:
+      # puml_url: https://www.plantuml.com/plantuml/
+      puml_url: http://localhost:8080/
+  - graph
+  # - macros # shouldn't use this!
+
+nav:
+  ########################################################################################################################
+  - Học:
+    - Về Việc Học: index.md
+    - Ngôn Ngữ:
+      - Ngôn Ngữ Học: language.md
+    - HS Vật Lý: Physics/physics-constant.md
+    - HS Toán II: Math2/math-2-mathematical-constant.md
+    - Hằng Số: hang-so.md
+  ########################################################################################################################
+  - Toán Học:
+    - Chung:
+      - Toán Cơ Bản: Math/math.md
+      - Tập hợp số: Math/math-phan-so.md
+      - Số Nguyên Tố: Math/math-prime-number.md
+      - Ước & Bội: Math/math-divisor-and-multiple.md
+    - Số Học:
+      - Số Học: Math/math-numberic-overview.md
+      - Hằng Đẳng Thức: Math/math-identity.md
+      - Bất Đẳng Thức: Math/math-inequalities.md
+    - Hình Học:
+      - Hình Học Cơ Bản: Math/math-geometry-overview.md
+      - Lượng Giác:
+        - Định luật Cosin: Math/math-law-of-cosines.md
+      - Tam Giác:
+        - Heron's Formula: Math/math-heron-formula.md
+      - Cevian: Math/math-cevian.md
+  - Toán Nâng Cao:
+    - Tổng Quan: Math2/math-2-overview.md
+    - Công Thức Euler: Math2/math-2-euler.md
+    - Basel problem: Math2/math-2-basel-problem.md
+  ########################################################################################################################
+  - Vật Lý:
+    - Overview: Physics/physics-overview.md
+    - Cơ Học:
+      - Thứ Nguyên: Physics/physics-dimensional.md
+      - Vận Tốc & Gia Tôc: Physics/physics-speed-acceleration.md
+      - Vận Tốc Ánh Sáng: Physics/physics-mechanics-3-newton-laws-of-motion.md
+      - Lực đẩy Archimedes: Physics/physics-mechanics-luc-day-archimedes.md
+      - 3 Newton's Laws: Physics/physics-mechanics-3-newton-laws-of-motion.md
+    - Điện:
+      - Lực đẩy Archimedes: Physics/physics-mechanics-luc-day-archimedes.md
+    - Speed of light: Physics/physics-speed-of-light.md
+    - Fourier: Physics/physics-fourier.md
+  ########################################################################################################################
+  - Hoá Học:
+    - Overview: Chemistry/chemistry-overview.md
+  ########################################################################################################################
+  - Lịch Sử:
+    - Sử Việt Nam:
+      - Overview: History_VN/vn-history-overview.md
+      - VN các thời kỳ: History_VN/vn-history-tong-quan-cac-thoi-ky.md
+      - Thời Tiền Sử: History_VN/vn-history-thoi-ky-tien-su.md
+      - Thời Cổ Đại: History_VN/vn-history-thuong-co-thoi-dai.md
+      - Truyện Dân Gian:
+        - Truyền Thuyết Con Rồng Cháu Tiên: History_VN/vn-history-truyen-thuyet-con-rong-chau-tien.md
+  ########################################################################################################################
+  - Triết Học:
+    - Overview: Philosophy/philosophy-overview.md
+    - Stoicism:
+      - Overview: Philosophy/stoicism-overview.md
+    - Triết Học cá nhân:
+      - Overview: Philosophy/philosophy-personalized-philosophy.md
+      - Pokemon: Philosophy/philosophy-pokemon.md
+  ########################################################################################################################
+  - Tiếng Anh:
+    - Tiếng Anh: English/english.md
+    - Grammaly:
+      - Từ:
+        - Danh từ: English/english-words-nouns.md
+        - Đại từ: English/english-words-pronouns.md
+        - Động từ: English/english-words-verbs.md
+        - Tính từ: English/english-words-adjectives.md
+        - Trạng từ: English/english-words-adverbs.md
+        - Giới từ: English/english-words-prepositions.md
+        - Liên từ: English/english-words-conjunctions.md
+        - Thán từ: English/english-words-interjections.md
+        - Từ hạn định: English/english-words-determiners.md
+      - Câu:
+        - Câu trần thuật: English/english-declarative-sentence.md
+        - Câu nghi vấn: English/english-interrogative-sentence.md
+        - Câu cảm thán: English/english-exclamatory-sentence.md
+    - Chưa xếp loại:
+      - Từ Chuyển Tiếp: English/english-transitional-phrases.md
+      # - Thời:
+        # - Thời:
+        # - Thời Hiện Tại Đơn
+        # - Thời Hiện Tại Tiếp Diễn
+        # - Thời Quá Khứ Đơn
+        # - Thời Quá Khứ Tiếp Diễn
+        # - Thời Hiện Tại Hoàn Thành
+      # - Câu:
+    - Practice:
+      - Reading:
+        - An Introduction to Film Sound: English/english-an-introduction-to-film-sound.md
+        - How to find your way out of a food desert: English/english-how-to-find-your-way-out-of-a-food-desert.md
+  - Tools:
+    - GeoGebra: Tools/geogebra.md
+    - GNU Octave: Tools/gnu-octave.md
+  - Misc:
+    - Latex: Misc/LaTex/latex.md
+    - Katex:
+      - Katex: Misc/KaTex/katex.md
+      - Ký Tự Toán: Misc/KaTex/katex-characters-and-symbols.md
+      - Chữ Hy Lạp: Misc/KaTex/katex-greek-letter.md
+      - Dấu Ngoặc:  Misc/KaTex/katex-delimiters.md
+      - Kích Thước:  Misc/KaTex/katex-text-size.md
+      - Biểu Tượng Và Dấu: Misc/KaTex/katex-math-symbols-and-punctuation.md
+      - Macro: Misc/KaTex/katex-macro.md
+
+extra_css:
+  - assets/stylesheets/theme.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra_javascript:
+  - assets/scripts/katex.js
+  - assets/scripts/keyevent.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dothanhdathp
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/tad.zeila?locale=vi_VN
+
+copyright:
+  ☕ Made by Tad Zeila!
