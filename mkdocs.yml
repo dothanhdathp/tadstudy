@@ -106,15 +106,16 @@ nav:
     - Tiếng Anh: English/english.md
     - Grammaly:
       - Từ:
+        - Từ (Word): English/english-words.md
         - Danh từ: English/english-words-nouns.md
-        - Đại từ: English/english-words-pronouns.md
         - Động từ: English/english-words-verbs.md
         - Tính từ: English/english-words-adjectives.md
         - Trạng từ: English/english-words-adverbs.md
-        - Giới từ: English/english-words-prepositions.md
-        - Liên từ: English/english-words-conjunctions.md
-        - Thán từ: English/english-words-interjections.md
-        - Từ hạn định: English/english-words-determiners.md
+        # - Đại từ: English/english-words-pronouns.md
+        # - Giới từ: English/english-words-prepositions.md
+        # - Liên từ: English/english-words-conjunctions.md
+        # - Thán từ: English/english-words-interjections.md
+        # - Từ hạn định: English/english-words-determiners.md
       - Câu:
         - Câu trần thuật: English/english-declarative-sentence.md
         - Câu nghi vấn: English/english-interrogative-sentence.md
